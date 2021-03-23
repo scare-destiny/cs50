@@ -1,4 +1,4 @@
-# Identify a person based on their DNA
+# This file presents a solution for the dna problem in pset6 of CS50x.
 
 import csv
 import sys
