@@ -35,8 +35,6 @@ def longest_str(dna, STR):
         return str(longest)
         
 # Parse DNA sequence and return dictionary with longest occurences for each STR   
-
-
 def parse_dna(dna, database):
     sequences = {}    
     # Find all STR occurences
@@ -48,7 +46,6 @@ def parse_dna(dna, database):
     # Return dictionary with names of STRs and max number of occurences 
     return sequences    
     
-
 def find_person(dna, persons):
     # Get dictionary with longest occurences for each STR
     sequences = parse_dna(dna, persons)
